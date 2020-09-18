@@ -1,0 +1,41 @@
+body,
+html{
+    height: 100%;
+    width: 100%;
+    background: url(123.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+    font-size: 5em;
+    text-align: center;
+    text-decoration: wavy;
+    color: red;
+}
+.buffer{
+    height:5rem;
+}
+.btn{
+    font-weight: 700;
+    width:10em;
+    height: 5em;
+    border-radius:900px;
+    text-transform: uppercase;
+    align-self:center;
+}
+.btn:hover{
+    background-color: rgb(245, 18, 177);
+    border-color: rgba(1, 1, 10, 0.89);
+    border-width: thick;
+}
+
+.btn-link{
+    font-weight:900;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.856);
+}
