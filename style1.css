@@ -1,0 +1,45 @@
+
+body,
+html{
+    background-color: cadetblue;
+}
+.container{
+  
+    font-size: 40px;
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(71, 5, 5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+ul{
+    text-transform: uppercase;
+    
+}
+
+/* img:border{
+    border: 5px;
+    border-color: black;
+} */
+img{
+    border-radius: 20px;
+    margin:10px;
+    transition:all 1s;
+    }
+img:hover{
+    transform:scale(1.1);
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+  }
+  
